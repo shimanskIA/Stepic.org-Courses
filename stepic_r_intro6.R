@@ -1,0 +1,2 @@
+avian <- read.csv("C:/datasets/avianHabitat_sewardPeninsula_McNew_2012.csv")
+avian2 <- read.csv(skip = 5, dec = ".", sep = ";", comment.char = "%", na.strings = "Don't remember", file = "C:/datasets/avianHabitat2.csv")
